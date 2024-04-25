@@ -1,8 +1,12 @@
-from tools import Timer
+import tools
+import logging
 
-def test_this_structure():
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.DEBUG)
+
+def main():
     pass
 
 if __name__ == '__main__':
-    pass
+    main()
 
